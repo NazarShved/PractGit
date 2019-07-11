@@ -17,18 +17,21 @@ public class Day1 {
     @Test(dependsOnMethods = {"check"})
     public void atst(){
         System.out.println("Day1 2" + str);
+        System.out.println("Changes made in dwnlded code");
+        System.out.println("First guy added");
     }
 
     @Test
     public void bt(){
         System.out.println("Day1 3" + str);
+        System.out.println("First guy added");
     }
 
     @BeforeTest
     public void bfr(){
         str = "day 1 str";
         System.out.println("Before from day1" + str);
-
+        System.out.println("First guy added");
     }
     @BeforeSuite
     public void abfrs(){
