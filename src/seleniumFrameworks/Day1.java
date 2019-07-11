@@ -18,6 +18,7 @@ public class Day1 {
     public void atst(){
         System.out.println("Day1 2" + str);
         System.out.println("Changes made in dwnlded code");
+
         System.out.println("First guy added");
     }
 
